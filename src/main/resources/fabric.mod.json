@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dark-mod",
+	"version": "${version}",
+	"name": "Dark Mod",
+	"description": "This is a small Mod adding the void",
+	"authors": [
+		"Kiwicat0_0"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dark-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.dark.kiwi.DarkMod"
+		],
+		"fabric-datagen": [
+			"net.dark.kiwi.DarkModDataGenerator"
+		],
+		"client": [
+			"net.dark.kiwi.DarkModClient"
+		]
+	},
+	"mixins": [
+		"dark-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
