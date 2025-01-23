@@ -13,7 +13,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item DARK_ORE = registerItem("dark_ore", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(DarkMod.MOD_ID,"dark_ore")))));
-
+    public static final Item RAW_DARK_ORE = registerItem("raw_dark_ore", new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM,Identifier.of(DarkMod.MOD_ID,"raw_dark_ore")))));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(DarkMod.MOD_ID, name), item);
@@ -24,6 +24,7 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(DARK_ORE);
+            fabricItemGroupEntries.add(RAW_DARK_ORE);
         });
     }
 }
