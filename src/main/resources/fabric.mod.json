@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/kiwicat-minecraft/dark-mod-1.21.4"
 	},
 	"license": "MIT",
 	"icon": "assets/dark-mod/icon.png",

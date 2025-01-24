@@ -1,4 +1,6 @@
 {
   "item.dark-mod.dark_ore":  "Dark Ore",
-  "item.dark-mod.raw_dark_ore": "Raw Dark Ore"
+  "item.dark-mod.raw_dark_ore": "Raw Dark Ore",
+
+  "item.dark-mod.void_block": "Block of the Void"
 }

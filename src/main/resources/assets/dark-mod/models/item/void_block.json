@@ -1,0 +1,6 @@
+{
+  "parent": "minecarft:generated",
+  "textures": {
+    "layer0": "dark-mod:block/void_block"
+  }
+}

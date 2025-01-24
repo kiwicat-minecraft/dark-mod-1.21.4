@@ -1,5 +1,6 @@
 package net.dark.kiwi;
 //note hi test
+import net.dark.kiwi.block.ModBlocks;
 import net.dark.kiwi.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,8 @@ public class DarkMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
+
 	}
 }
